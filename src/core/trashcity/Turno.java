@@ -6,6 +6,7 @@ package core.trashcity;
 
 import core.person.Asistente;
 import core.person.Conductor;
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 
 /**
@@ -19,7 +20,8 @@ public class Turno {
     private Asistente asistente1;
     private Asistente asistente2;
     private Ruta ruta;
-    private DateTime fechainicio;
-    private DateTime fechaFin;
+    private LocalDateTime fechainicio;
+    private LocalDateTime fechaFin;
     private ArrayList<Residuo>residuos; 
+    
 }
