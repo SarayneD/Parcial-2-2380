@@ -33,22 +33,35 @@ public class TrashCity {
         return false;
     }
 
+    public Empleado getEmpleado(int i) {
+        return empleados.get(i);
+    }
+
     public ArrayList<Empleado> getEmpleados() {
         return empleados;
+    }
+
+    public Camion getCamion(int i) {
+        return camiones.get(i);
     }
 
     public ArrayList<Camion> getCamiones() {
         return camiones;
     }
 
+    public Ruta getRuta(int i) {
+        return rutas.get(i);
+    }
+
     public ArrayList<Ruta> getRutas() {
         return rutas;
+    }
+     public Turno getTurno(int i) {
+        return turnos.get(i);
     }
 
     public ArrayList<Turno> getTurnos() {
         return turnos;
     }
-    
 
-}
 }
