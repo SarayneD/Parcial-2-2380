@@ -1,3 +1,8 @@
+import core.person.Asistente;
+import core.person.Conductor;
+import core.trashcity.Camion;
+import core.trashcity.PuntoGeografico;
+import core.trashcity.TrashCity;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 
