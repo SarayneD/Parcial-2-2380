@@ -13,8 +13,8 @@ import java.util.ArrayList;
 public class Ruta {
     private ArrayList<PuntoGeografico> puntosGeograficos;
 
-    public Ruta(ArrayList<PuntoGeografico> puntosGeograficos) {
-        this.puntosGeograficos = puntosGeograficos;
+    public Ruta() {
+        this.puntosGeograficos = new ArrayList<> ();
     }
     
     
