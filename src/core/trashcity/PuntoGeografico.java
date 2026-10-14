@@ -11,4 +11,10 @@ package core.trashcity;
 public class PuntoGeografico {
     private float latitud;
     private float longitud;
+
+    public PuntoGeografico(float latitud, float longitud) {
+        this.latitud = latitud;
+        this.longitud = longitud;
+    }
+    
 }
