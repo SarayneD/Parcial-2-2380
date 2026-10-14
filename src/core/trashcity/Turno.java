@@ -36,5 +36,13 @@ public class Turno {
         this.residuos = residuos;
     }
     
+    public boolean ejecutar(LocalDateTime fechainicio, int id){
+        System.out.println("");
+        return false;
+    }
     
+    public boolean clasificarResiduos(Camion camion){
+        System.out.println("");
+    }
+   
 }

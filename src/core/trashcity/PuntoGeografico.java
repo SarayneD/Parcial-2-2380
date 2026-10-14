@@ -9,28 +9,22 @@ package core.trashcity;
  * @author sarayned
  */
 public class PuntoGeografico {
-    private float latitud;
-    private float longitud;
+    private double latitud;
+    private double longitud;
 
-    public PuntoGeografico(float latitud, float longitud) {
+    public PuntoGeografico(double latitud, double longitud) {
         this.latitud = latitud;
         this.longitud = longitud;
     }
 
-    public float getLatitud() {
+    public double getLatitud() {
         return latitud;
     }
 
-    public float getLongitud() {
+    public double getLongitud() {
         return longitud;
     }
     
-    public boolean add(PuntoGeografico puntoGeografico){
-        if (!this.puntos.contains(puntoGeografico)){
-            this.puntos.add(puntoGeografico);
-            return true;
-        }
-        return false;
-    }
+   
     
 }
