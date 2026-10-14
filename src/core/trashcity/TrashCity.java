@@ -87,7 +87,12 @@ public class TrashCity {
     }
     
     public void showRutaMaxMetal(){
-        
+        System.out.println("Residuo - ");
+        System.out.println("");
+        System.out.println("");
+        System.out.println("");
+        System.out.println("");
+        System.out.println("");
     }
 
     public boolean addRuta(ArrayList<PuntoGeografico> puntos) {
