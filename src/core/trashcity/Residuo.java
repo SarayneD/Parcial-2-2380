@@ -14,4 +14,15 @@ public class Residuo {
     private float plastico;
     private float metal;
     private float residuosOrganicos;
+
+    public Residuo(float vidrio, float papel, float plastico, float metal, float residuosOrganicos) {
+        this.vidrio = vidrio;
+        this.papel = papel;
+        this.plastico = plastico;
+        this.metal = metal;
+        this.residuosOrganicos = residuosOrganicos;
+    }
+    
+    
+    
 }

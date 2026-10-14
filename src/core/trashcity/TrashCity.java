@@ -4,8 +4,8 @@
  */
 package core.trashcity;
 
+import core.person.Empleado;
 import java.util.ArrayList;
-import person.Empleado;
 
 /**
  *
