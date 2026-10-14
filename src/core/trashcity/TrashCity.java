@@ -183,7 +183,7 @@ public class TrashCity {
                 + "  - Fecha Fin: 2025-01-24T06:47\n"
                 + "  - Cantidad: 19.965");
 
-    }
+
 
     public boolean addRuta(ArrayList<PuntoGeografico> puntos) {
 

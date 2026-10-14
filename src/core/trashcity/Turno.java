@@ -45,5 +45,11 @@ public class Turno {
         System.out.println("");
         return false;
     }
+    
+    public void maxMinCadaResiduo(Turno turnos){
+        for (Turno t: turnos){
+            
+        }
+    }
    
 }
