@@ -87,5 +87,13 @@ public class TrashCity {
         }
         return false;
     }
+    
+    public void showMinMaxTurnoPorResiduo(){
+        
+    }
+    
+    public void showRutaMaxMetal(){
+        
+    }
 
 }
