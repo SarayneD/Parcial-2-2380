@@ -25,6 +25,12 @@ public class PuntoGeografico {
         return longitud;
     }
     
-    
+    public boolean add(PuntoGeografico puntoGeografico){
+        if (!this.puntos.contains(puntoGeografico)){
+            this.puntos.add(puntoGeografico);
+            return true;
+        }
+        return false;
+    }
     
 }
