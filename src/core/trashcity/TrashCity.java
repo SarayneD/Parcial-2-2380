@@ -4,10 +4,16 @@
  */
 package core.trashcity;
 
+import java.util.ArrayList;
+import person.Empleado;
+
 /**
  *
  * @author sarayned
  */
 public class TrashCity {
-    
+    private ArrayList<Empleado> empleados;
+    private ArrayList<Camion> camiones;
+    private ArrayList<Ruta> rutas;
+    private ArrayList<Turno> turnos;
 }
