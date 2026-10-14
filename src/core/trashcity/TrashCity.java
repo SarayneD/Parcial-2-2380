@@ -12,8 +12,43 @@ import java.util.ArrayList;
  * @author sarayned
  */
 public class TrashCity {
+
     private ArrayList<Empleado> empleados;
     private ArrayList<Camion> camiones;
     private ArrayList<Ruta> rutas;
     private ArrayList<Turno> turnos;
+
+    public TrashCity() {
+        this.empleados = new ArrayList<>();
+        this.camiones = new ArrayList<>();
+        this.rutas = new ArrayList<>();
+        this.turnos = new ArrayList<>();
+    }
+
+    public boolean addCamion(Camion camion) {
+        if (!camiones.contains(camion)) {
+            camiones.add(camion);
+            return true;
+        }
+        return false;
+    }
+
+    public ArrayList<Empleado> getEmpleados() {
+        return empleados;
+    }
+
+    public ArrayList<Camion> getCamiones() {
+        return camiones;
+    }
+
+    public ArrayList<Ruta> getRutas() {
+        return rutas;
+    }
+
+    public ArrayList<Turno> getTurnos() {
+        return turnos;
+    }
+    
+
+}
 }
