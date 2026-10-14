@@ -22,6 +22,26 @@ public class Residuo {
         this.metal = metal;
         this.residuosOrganicos = residuosOrganicos;
     }
+
+    public float getVidrio() {
+        return vidrio;
+    }
+
+    public float getPapel() {
+        return papel;
+    }
+
+    public float getPlastico() {
+        return plastico;
+    }
+
+    public float getMetal() {
+        return metal;
+    }
+
+    public float getResiduosOrganicos() {
+        return residuosOrganicos;
+    }
     
     
     

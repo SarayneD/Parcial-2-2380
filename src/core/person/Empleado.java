@@ -20,6 +20,23 @@ public abstract class Empleado {
         this.edad = edad;
         this.salario = salario;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public float getSalario() {
+        return salario;
+    }
+    
     
     
     

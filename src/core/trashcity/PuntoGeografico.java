@@ -16,5 +16,13 @@ public class PuntoGeografico {
         this.latitud = latitud;
         this.longitud = longitud;
     }
+
+    public float getLatitud() {
+        return latitud;
+    }
+
+    public float getLongitud() {
+        return longitud;
+    }
     
-}
+    

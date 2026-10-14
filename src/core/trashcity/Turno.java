@@ -23,5 +23,18 @@ public class Turno {
     private LocalDateTime fechainicio;
     private LocalDateTime fechaFin;
     private ArrayList<Residuo>residuos; 
+
+    public Turno(LocalDateTime fechainicio, LocalDateTime fechaFin) {
+        this.id = id;
+        this.camion = camion;
+        this.conductor = conductor;
+        this.asistente1 = asistente1;
+        this.asistente2 = asistente2;
+        this.ruta = ruta;
+        this.fechainicio = fechainicio;
+        this.fechaFin = fechaFin;
+        this.residuos = residuos;
+    }
+    
     
 }

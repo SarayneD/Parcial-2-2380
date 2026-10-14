@@ -18,4 +18,6 @@ public class Asistente extends Empleado{
         super(id, nombre, edad, salario);
         this.turnos = new ArrayList<>();
     }
+    
+    
 }

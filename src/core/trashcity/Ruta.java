@@ -16,6 +16,10 @@ public class Ruta {
     public Ruta() {
         this.puntosGeograficos = new ArrayList<> ();
     }
+
+    public ArrayList<PuntoGeografico> getPuntosGeograficos() {
+        return puntosGeograficos;
+    }
     
     
 }
