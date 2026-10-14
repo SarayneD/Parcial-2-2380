@@ -80,13 +80,7 @@ public class TrashCity {
         return false;
     }
     
-    public boolean addRuta(Ruta puntos){
-        if (!rutas.contains(puntos)) {
-            rutas.add(puntos);
-            return true;
-        }
-        return false;
-    }
+    
     
     public void showMinMaxTurnoPorResiduo(){
         
@@ -94,6 +88,14 @@ public class TrashCity {
     
     public void showRutaMaxMetal(){
         
+    }
+
+    public boolean addRuta(ArrayList<PuntoGeografico> puntos) {
+      if (!rutas.contains(puntos)) {
+            rutas.add(puntos);
+            return true;
+        }
+        return false;  
     }
 
 }
