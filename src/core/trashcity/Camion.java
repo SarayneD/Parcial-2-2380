@@ -14,5 +14,14 @@ public class Camion {
     private int id;
     private String placa;
     private String marca;
-    private ArrayList<Turno> turno;
+    private ArrayList<Turno> turnos;
+
+    public Camion(int id, String placa, String marca) {
+        this.id = id;
+        this.placa = placa;
+        this.marca = marca;
+        this.turnos = new ArrayList<>();
+    }
+    
+    
 }
