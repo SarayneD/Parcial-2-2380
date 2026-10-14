@@ -64,4 +64,12 @@ public class TrashCity {
         return turnos;
     }
 
+    public boolean addTurno(int i, Camion camion, Empleado empleado, Empleado empleado1, Empleado empleado2, Ruta ruta) {
+       if (!turnos.contains(i)) {
+            turnos.add(i);
+            return true;
+        }
+        return false; 
+    }
+
 }

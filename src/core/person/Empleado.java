@@ -14,11 +14,11 @@ public abstract class Empleado {
     protected int edad;
     protected float salario;
 
-    public Empleado(int id, String nombre, int edad, float salario) {
+    public Empleado(int id, String nombre, int edad, double salario) {
         this.id = id;
         this.nombre = nombre;
         this.edad = edad;
-        this.salario = salario;
+        this.salario = (float)salario;
     }
 
     public int getId() {
