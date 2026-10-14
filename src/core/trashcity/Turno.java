@@ -41,7 +41,7 @@ public class Turno {
         return false;
     }
     
-    public boolean clasificarResiduos(float vidrio, float papel, float plastico, float metal, float residuosOrganicos){
+    public boolean clasificarResiduos(double vidrio, double papel, double plastico, double metal, double residuosOrganicos){
         System.out.println("");
         return false;
     }
